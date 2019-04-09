@@ -1,7 +1,8 @@
-# Sudo4Droid Magisk Module
+# Fake Sudo Magisk Module
 
 ## Description
-This module adds the sudo command to Android. It adds the file "/system/xbin/sudo", which is a script that passes all arguments to 'su -c'. Specifically, the code is 'su -c "$@"'.
+This module adds a command to run a specific command as root (this is NOT a full `sudo` command). It does this by simply passing all arguments to `su -c`. 
 
 ## Changelog
-v1.1: Update to template 1500
+1.1: Update to template 1500
+1.2: Update to module installer for Magisk 19
